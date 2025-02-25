@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-#configuration   
+#configuration #github   
   
 ### Pré-configuration  
 - Autoriser Microsoft et les applications à utiliser votre emplacement  
