@@ -1,8 +1,7 @@
 ---
 share: true
 ---
-#configuration   
-  
+#configuration #github   
 ### **Si execution d'un dual boot, il est impératif d'installer [Windows 11](./Windows%2011.md) avant toute installation pour éviter les conflit du Boot manager.**  
 ### Updating packages  
 - `sudo dnf update`  
