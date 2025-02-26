@@ -4,34 +4,20 @@ tags:
 share: "true"
 ---
 ### Pré-configuration
-- Autoriser Microsoft et les applications à utiliser votre emplacement
-	Non
-- Localiser mon appareil
-	Oui
-- Envoyer des données de diagnostic à Microsoft
-	Obligatoire uniquement
-- Améliorer l'écriture manuscrite et la saisie
-	Non
-- Obtenir des expériences personnalisées avec des données de diagnostic
-	Non
-- Autoriser les applications à utiliser l'identifiant de publicité
-	Non
-- Personnalisons votre expérience utilisateur
-	Ignorer *(en bas à droite, à côté du bouton "Accepter")*
-- Utiliser votre téléphone à partir de votre PC
-	Ignorer *(en bas à droite, à côté du bouton "Accepter")*
-- Sauvegarder vos fichier avec OneDrive
-	Ne pas sauvegarder mes fichiers
-- Poursuivez là où vous en êtes arrêté en important à partir de votre autre navigateur
-	Pas maintenant.
-- Vous en avez de la chance : vous avez réussi un essai gratuit de Microsoft 365 Famille
-	Refuser Microsoft 365 *(en bas à droite, à côté du bouton "Continuer")*
-- Obtenir plus d'espace de stockage cloud avec Microsoft 365 Basic
-	Refuser *(en bas à droite, à côté du bouton "Continuer")*
-- Saviez-vous que vous pouvez utiliser Microsoft 365 gratuitement ?
-	Suivante
-- Rejoignez PC Games Pass pour seulement 11,99 € par mois
-	Ignorer pour le moment *(en bas à droite, à côté du bouton "Rejoindre pour 11,99 €")*
+- Autoriser Microsoft et les applications à utiliser votre emplacement: `Non`
+- Localiser mon appareil: `Oui`
+- Envoyer des données de diagnostic à Microsoft: `Obligatoire uniquement`
+- Améliorer l'écriture manuscrite et la saisie: `Non`
+- Obtenir des expériences personnalisées avec des données de diagnostic: `Non`
+- Autoriser les applications à utiliser l'identifiant de publicité: `Non`
+- Personnalisons votre expérience utilisateur: `Ignorer` *(en bas à droite, à côté du bouton "Accepter")*
+- Utiliser votre téléphone à partir de votre PC: `Ignorer` *(en bas à droite, à côté du bouton "Accepter")*
+- Sauvegarder vos fichier avec OneDrive: `Ne pas sauvegarder mes fichiers`
+- Poursuivez là où vous en êtes arrêté en important à partir de votre autre navigateur: `Pas maintenant.`
+- Vous en avez de la chance : vous avez réussi un essai gratuit de Microsoft 365 Famille: `Refuser Microsoft 365` *(en bas à droite, à côté du bouton "Continuer")*
+- Obtenir plus d'espace de stockage cloud avec Microsoft 365 Basic: `Refuser` *(en bas à droite, à côté du bouton "Continuer")*
+- Saviez-vous que vous pouvez utiliser Microsoft 365 gratuitement ?: `Suivante`
+- Rejoignez PC Games Pass pour seulement 11,99 € par mois: `Ignorer pour le moment` *(en bas à droite, à côté du bouton "Rejoindre pour 11,99 €")*
 
 ### Configuration
 #### Win11Debloat *[source](https://github.com/Raphire/Win11Debloat)*
