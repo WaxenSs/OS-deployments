@@ -8,12 +8,13 @@ share: "true"
 - `sudo dnf update`
 - `sudo dnf upgrade`
 ### Enroll new MOK *([source](https://www.youtube.com/watch?v=k5uxX2U3tYE))*
+- Si dual boot Windows: Désactiver le boot dans le BIOS
 - `sudo dnf install kmodtool akmods mokutil openssl`
 - `sudo kmodgenca -a`
 - `sudo mokutil --import /etc/pki/akmods/certs/public_key.der`
 - `systemctl reboot`
 - Press *Enroll MOK*
-	⚠️ Avec un dual boot, l'interface **Enroll MOK** ne s’affiche pas immédiatement après un redémarrage, si cela est le cas, suivre cette procédure :
+	⚠️ Si vous n'avez pas suivi la première étape alors que vous avez un dual boot Windows, l'interface **Enroll MOK** peut ne pas s'afficher immédiatement après un redémarrage, si cela est le cas, suivre cette procédure :
 	- **Redémarrer le PC** et accède au menu de démarrage GRUB.
 	-  Lorsque tu vois l’écran de GRUB, sélectionne l’option Fedora pour démarrer Fedora, mais ne lance pas encore Fedora.
 	- Appuie sur **Shift** ou **Esc** pour essayer de forcer l’affichage de l’interface MOK.
