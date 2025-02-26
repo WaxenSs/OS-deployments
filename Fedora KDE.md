@@ -27,8 +27,6 @@ share: "true"
 - `sudo dnf copr enable codifryed/CoolerControl`
 - `sudo dnf install coolercontrol`
 - `sudo systemctl enable --now coolercontrold`
-### Activation du GameMode
-
 ### Montage automatique des disques
 #### Format des disks
 - games_nvme
@@ -73,5 +71,19 @@ share: "true"
 - Steam
 - 1password
 - Goofcord
+
+### GameMode
+Combinaison démon/bibliothèque pour Linux qui permet aux jeux de demander qu'un ensemble d'optimisations soit temporairement appliqué au système d'exploitation hôte et/ou à un processus de jeu.
+#### Activation
+Le démon GameMode est déjà installé sur Fedora, nous avons juste à l'activer pour les jeux qui n'intègrent pas la prise en charge du GameMode nativement. 
+*D'autres solutions d'intégrations sont disponibles sur le [repo GitHub](https://github.com/FeralInteractive/gamemode)*.
+- Ajouter le jeu sur Steam
+- Clique droit > Propriétés
+- Général > Options de lancement
+- `gamemoderun %command%`
+#### Vérification du fonctionnement
+- Lancer le jeu
+- Sur le terminal: `gamemoded -s`
+
 ### Patch problème plein écran
 *Configuration du système > Affichage & Écran > Synchro adaptative > Jamais*
