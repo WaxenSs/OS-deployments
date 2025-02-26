@@ -27,16 +27,16 @@ share: "true"
 - `sudo dnf copr enable codifryed/CoolerControl`
 - `sudo dnf install coolercontrol`
 - `sudo systemctl enable --now coolercontrold`
-### Montage automatique des disques
-#### Format des disks
+### Disques
+#### Formats
 - games_nvme
 	- ext4
 	- Droit d'accès: Tout le monde
 - replays_ssd
-	- ntfsπ
+	- ntfs
 - files_dd
 	- ntfs
-#### Set default mount disks
+#### Montage automatique des disques
 *Gestionnaire de partitions de KDE > Modifier le point de montage*
 - Cocher Identifier par: `UUID`
 - Emplacement: `/mnt/'sujet'_'type'/`
