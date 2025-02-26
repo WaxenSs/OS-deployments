@@ -44,6 +44,7 @@ share: "true"
 - [1password](https://1password.com/fr/downloads/linux) *(RPM)*
 - [Cider](https://itch.io/my-collections ) *(Flatpak)*
 - [OpenDeck](https://github.com/ninjadev64/OpenDeck) *(RPM)*
+- [r2modmanPlus](https://github.com/ebkr/r2modmanPlus) *(RPM)*
 #### Launchers
 - Steam: `sudo dnf install steam`
 - Rockstar Games Launcher *([source](https://www.youtube.com/watch?v=ZQ5ct-WqN2Y&t=175s))*
@@ -85,6 +86,5 @@ Le démon GameMode est déjà installé sur Fedora, nous avons juste à l'active
 #### Vérification du fonctionnement
 - Lancer le jeu
 - Sur le terminal: `gamemoded -s`
-
 ### Patch problème plein écran
 *Configuration du système > Affichage & Écran > Synchro adaptative > Jamais*
