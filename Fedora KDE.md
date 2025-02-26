@@ -73,6 +73,7 @@ share: "true"
 - Goofcord
 
 ### GameMode
+[source](https://youtu.be/tHAtX_aou_E?si=UtnU0IEFl1nasW3_)
 Combinaison démon/bibliothèque pour Linux qui permet aux jeux de demander qu'un ensemble d'optimisations soit temporairement appliqué au système d'exploitation hôte et/ou à un processus de jeu.
 #### Activation
 Le démon GameMode est déjà installé sur Fedora, nous avons juste à l'activer pour les jeux qui n'intègrent pas la prise en charge du GameMode nativement. 
