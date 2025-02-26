@@ -27,6 +27,8 @@ share: "true"
 - `sudo dnf copr enable codifryed/CoolerControl`
 - `sudo dnf install coolercontrol`
 - `sudo systemctl enable --now coolercontrold`
+### Activation du GameMode
+
 ### Montage automatique des disques
 #### Format des disks
 - games_nvme
