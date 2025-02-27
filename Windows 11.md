@@ -1,8 +1,10 @@
 ---
-tags:
-  - configuration
+tags: []
 share: "true"
 ---
+[Configuration](./Configuration.md)
+[Logiciels](./Logiciels.md)
+
 ### Pré-configuration
 - Autoriser Microsoft et les applications à utiliser votre emplacement: `Non`
 - Localiser mon appareil: `Oui`
@@ -54,7 +56,7 @@ Windows PowerShell: `& ([scriptblock]::Create((irm "https://debloat.raphi.re/"))
 #### Paramètres
 ##### Écran
 - Éclairage nocturne
-	- Panifier l'éclairage nocturne: `20:45 à 7:45'
+	- Panifier l'éclairage nocturne: `20:45 à 7:45`
 - HDR
 	- Luminosité du contenu DTS: `100%`
 	- HDR automatique: Activé
