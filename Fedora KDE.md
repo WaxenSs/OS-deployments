@@ -93,4 +93,13 @@ Le démon GameMode est déjà installé sur Fedora, une simple activation est n�
 *D'autres solutions d'intégrations sont disponibles sur le [repo GitHub](https://github.com/FeralInteractive/gamemode)*.
 ## Vérification du fonctionnement
 - Lancer le jeu
+- 
 - `gamemoded -s`
+# Problèmes rencontrés
+## Patché*s*
+### Écran noir avant/après plein écran
+*Configuration du système > Affichage & Écran > Synchro adaptative > Jamais*
+### Partition `NTFS`: Problème permission d'écriture
+ ⚠️ Si dual boot [Windows 11](./Windows%2011.md): Voir page *[Windows 11](./Windows%2011.md) >  Configuration > Paramètres > Disques*
+## Non patché*s*
+- Les jeux flatpaks ne peuvent pas avoir l'overlay Steam *(et donc ne peuvent être enregistrés avec la fonction de replay)*
