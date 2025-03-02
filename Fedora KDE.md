@@ -94,5 +94,12 @@ Le démon GameMode est déjà installé sur Fedora, une simple activation est n�
 ## Vérification du fonctionnement
 - Lancer le jeu
 - `gamemoded -s`
-# Patch problème plein écran
+
+# Problèmes rencontrés
+## Patché*s*
+### Écran noir après plein écran
 *Configuration du système > Affichage & Écran > Synchro adaptative > Jamais*
+
+## Non patché*s*
+- Les jeux flatpaks ne peuvent pas avoir l'overlay Steam *(et donc ne peuvent être enregistrés avec la fonction de replay)*
+- les partitions en ntfs peuvent avoir un problème de lecture/écriture
