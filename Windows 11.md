@@ -69,6 +69,10 @@ Windows PowerShell: `& ([scriptblock]::Create((irm "https://debloat.raphi.re/"))
 - Désactivation du Game Bar
 ##### Windows Update
 - Effectuer les mise à jour Windows Update
+##### Disques
+ ⚠️ Si dual boot [Fedora KDE](./Fedora%20KDE.md): Désactiver le "Démarrage rapide"
+		`Panneau de configuration > Matériel et audio > Options d'alimentation > Paramètres système > Activer le démarrage rapide`: Décocher
+*Permet de rendre possible l'écriture des disques en `NTFS` possibles sur Linux.*
 ### Apps
 - Désinstaller `OneDrive`
 - Asus `Armory Crate` *(demande d'installation automatique lors de la première connexion sur Windows)*
