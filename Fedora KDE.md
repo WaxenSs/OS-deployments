@@ -93,7 +93,6 @@ Le démon GameMode est déjà installé sur Fedora, une simple activation est n�
 *D'autres solutions d'intégrations sont disponibles sur le [repo GitHub](https://github.com/FeralInteractive/gamemode)*.
 ## Vérification du fonctionnement
 - Lancer le jeu
-- 
 - `gamemoded -s`
 # Problèmes rencontrés
 ## Patché*s*
